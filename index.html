@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ebenca Mohlala - Personal Website</title>
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #071c39;
+    color: #fff;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0044cc;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5em;
+    text-shadow: 0 0 10px #00f;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 0.5em;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #cce7ff;
+    text-shadow: 0 0 5px #00f;
+}
+
+h2 {
+    color: #00bfff;
+    text-shadow: 0 0 10px #00f;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin: 2em 0;
+}
+
+.image-gallery img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 15px rgba(0, 0, 255, 0.7);
+}
+
+.image-gallery img:hover {
+    transform: scale(1.1);
+}
+
+/* CTA Buttons */
+.cta-buttons {
+    margin: 2em 0;
+}
+
+.cta-button {
+    background-color: #0044cc;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 0 10px #00f;
+}
+
+.cta-button:hover {
+    background-color: #003399;
+}
+
+/* Video Section */
+#videos {
+    background-color: #002266;
+    padding: 2em 0;
+    text-align: center;
+}
+
+.video-gallery {
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+    margin: 2em 0;
+}
+
+.video-item {
+    text-align: center;
+}
+
+.video-item video {
+    width: 300px;
+    border: 3px solid #00bfff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 255, 0.7);
+    transition: transform 0.3s ease;
+}
+
+.video-item video:hover {
+    transform: scale(1.1);
+}
+
+.slogan {
+    margin-top: 0.5em;
+    font-style: italic;
+    color: #00bfff;
+}
+
+/* Footer */
+footer {
+    background-color: #003399;
+    padding: 1em 0;
+    text-align: center;
+}
+
+footer p {
+    color: #fff;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>CodingWithBenca</h1>
+            <p>Web Developer | Boxer | Bodybuilder</p>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>                   
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+					 <li><a href="about.html">About</a></li>
+					
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+   <section id="home">
+        <div class="container">
+            <h2>Welcome to My Personal Website</h2>
+            <p>Hi, I'm Ebenca Mohlala. I create sleek, functional websites, and I'm also a professional boxer and bodybuilder.</p>
+            <div class="image-gallery">
+                <img src="WhatsApp Image 2024-08-12 at 12.34.56_3b82af2d.jpg" alt="Web Development">
+                <img src="402264824_1374378660126422_7888715452634890293_n.jpg" alt="Boxing">
+            </div>
+            <div class="cta-buttons">
+                <a href="portfolio.html" class="cta-button">View Portfolio</a>
+                <a href="blog.html" class="cta-button">Read My Blog</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Videos Section -->
+    <section id="videos">
+        <div class="container">
+            <h2>My Journey in Videos</h2>
+            <p>A glimpse into my life – balancing web development, boxing, and bodybuilding.</p>
+            <div class="video-gallery">
+                <div class="video-item">
+                    <video src="Home _ Ballinton Apparel and 10 more pages - Personal - Microsoft​ Edge 2024-09-07 00-43-26.mp4" controls></video>
+                    <p class="slogan">"Coding the Future: Building Websites that Inspire"</p>
+                </div>
+         
+            
+        </div>
+    </section>
+<footer>
+        <div class="container">
+            <p>&copy; 2024 Ebenca Mohlala. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="https://web.facebook.com/ebenca.mohlala" class="social-icon facebook" target="_blank">
+                    <i class="fab fa-facebook-f"></i> Facebook
+                </a>
+                <a href="https://www.instagram.com/codingwithbenca/" class="social-icon instagram" target="_blank">
+                    <i class="fab fa-instagram"></i> Instagram
+                </a>
+                <a href="https://wa.me/yourwhatsappnumber" class="social-icon whatsapp" target="_blank">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+            </div>
+        </div>
+    </footer>
+   
+	
+</body>
+</html>

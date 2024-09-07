@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Ebenca Mohlala</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Ebenca Mohlala</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+					<li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="blog">
+        <div class="container">
+            <h2>My Blog</h2>
+            <p>Here are my thoughts on web development, fitness, and the art of balancing multiple passions.</p>
+            <div class="blog-posts">
+                <article class="blog-post">
+                    <h3>Why I Love Coding</h3>
+                    <p>Coding has been a passion of mine for years. It allows me to solve problems creatively while building something tangible. Here's my story of how I got into web development...</p>
+                    <a href="#" class="cta-button">Read More</a>
+                </article>
+
+                <article class="blog-post">
+                    <h3>Boxing and Discipline</h3>
+                    <p>Boxing has taught me discipline, focus, and resilience, lessons that transfer seamlessly into coding. In this post, I share how training as a professional boxer has helped me in my coding career...</p>
+                    <a href="#" class="cta-button">Read More</a>
+                </article>
+
+                <article class="blog-post">
+                    <h3>Balancing Fitness and Technology</h3>
+                    <p>Staying fit while working long hours as a developer can be challenging. In this post, I talk about how I balance my professional bodybuilding career with web development...</p>
+                    <a href="#" class="cta-button">Read More</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ebenca Mohlala. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+ <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #071c39;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #0044cc;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin-bottom: 0.5em;
+            text-shadow: 0 0 10px #00f;
+        }
+
+        nav ul {
+            list-style: none;
+            margin-top: 0.5em;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #cce7ff;
+            text-shadow: 0 0 5px #00f;
+        }
+
+        h2 {
+            color: #00bfff;
+            text-shadow: 0 0 10px #00f;
+            text-align: center;
+            margin-top: 1em;
+        }
+
+        section#portfolio {
+            padding: 2em 0;
+            text-align: center;
+        }
+
+        section#portfolio p {
+            font-size: 1.2em;
+            margin-bottom: 2em;
+        }
+
+        .portfolio-gallery {
+            display: flex;
+            justify-content: center;
+            gap: 2em;
+            flex-wrap: wrap;
+        }
+
+        .portfolio-item {
+            background-color: #003366;
+            padding: 1em;
+            border-radius: 10px;
+            width: 300px;
+            transition: transform 0.3s ease;
+            box-shadow: 0 0 15px rgba(0, 0, 255, 0.7);
+        }
+
+        .portfolio-item:hover {
+            transform: scale(1.1);
+        }
+
+        .portfolio-item img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+        }
+
+        .portfolio-item h3 {
+            color: #00bfff;
+            margin-top: 0.5em;
+        }
+
+        .portfolio-item p {
+            margin-top: 0.5em;
+            color: #cce7ff;
+        }
+
+        footer {
+            background-color: #003399;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        footer p {
+            color: #fff;
+        }
+    </style>
